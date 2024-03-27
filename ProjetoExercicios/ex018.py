@@ -1,11 +1,13 @@
-angulo = int(input('Digite o Valor de um Ângulo: '))
-cat_oposto = int(input('Digite um número do Cateto Oposto: '))
-cat_adj = int(input('Digite um número do Cateto Adjacente: '))
+ang = int(input('Digite um Ângulo: '))
 
-from math import pow
-soma = pow(cat_oposto, 2) + pow(cat_adj, 2)
-from math import sqrt
-raiz = sqrt(soma)
+import math
 
+rad = math.radians(ang)
+seno = math.sin(rad)
+cos = math.cos(rad)
+tg = math.tan(rad)
 
-print('O valor da hipotenusa, entre os catetos {} e {} é {:.2f} '.format(cat_oposto, cat_adj, raiz))
+print('O ângulo {}, tem como seno: {:.2f}'.format(ang, seno))
+print('O ângulo {}, tem como cosseno: {:.2f}'.format(ang, cos))
+print('O ângulo {}, tem como tangente: {:.2f}'.format(ang, tg))
+
