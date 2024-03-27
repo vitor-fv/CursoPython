@@ -9,4 +9,4 @@ lista = [a1, a2, a3, a4]
 
 random.shuffle(lista)
 
-print(f"A ordem de apresentação é:{lista}")
+print(f"A ordem de apresentação é:{list}")

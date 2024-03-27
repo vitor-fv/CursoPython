@@ -13,6 +13,6 @@ for i in range(0,qtd_Alunos):
     #print (alunos)
 
 #sorteio = choice(alunos)
-sorteio = shuffle(alunos)
+sorteio = shuffle(aluno)
 print (alunos)
 #print('O aluno que irá limpar o quadro será: {}'.format(sorteio))

@@ -15,4 +15,4 @@ a4 = str(input("Nome do Aluno 4: "))
 lista = [a1,a2,a3,a4]
 #sorteio = choice(alunos)
 sorteio = choice(lista)
-print('O aluno que irá limpar o quadro será: {}'.format(sorteio))
+print('O aluno que irá limpar o quadro será: {}'.format(sorteio)

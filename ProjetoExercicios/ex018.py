@@ -9,5 +9,5 @@ tg = math.tan(rad)
 
 print('O ângulo {}, tem como seno: {:.2f}'.format(ang, seno))
 print('O ângulo {}, tem como cosseno: {:.2f}'.format(ang, cos))
-print('O ângulo {}, tem como tangente: {:.2f}'.format(ang, tg))
+print('O ângulo {}, tem como tangente: {:.2f}'.format(ang, tg)
 
