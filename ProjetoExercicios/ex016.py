@@ -1,7 +1,3 @@
+import math
 num = float(input('Digite um número: '))
-
-from math import trunc
-n = trunc(num)
-
-print('O número {:.3f} tem a parte inteira {} '.format(num, n))
-
+print('O número {} tem a parte inteira {} '.format(num, math.trunc(num)))
